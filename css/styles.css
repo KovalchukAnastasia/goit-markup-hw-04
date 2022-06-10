@@ -128,7 +128,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--second-title-color);
-    margin-left: 50px;
+    margin-left: 30px;
     display: flex;
     align-items: center;
     
@@ -154,8 +154,10 @@ body {
 }
 /*----------main----------*/
 .main {
-    /* max-width: 1600px;
-    min-height: 600px; */
+    max-width: 1600px;
+    min-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #2F303A;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
@@ -320,12 +322,12 @@ body {
     letter-spacing: 0.03em;
     color: var(--second-title-color);
     text-align: center;
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
 }
 
 .team-description {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 16px;
 
 }
     
@@ -668,6 +670,7 @@ body {
     line-height: 2.0;
     letter-spacing: 0.06em;
     color: #212121;
+    margin-bottom: 4px;
     }
 
     .projects-text {
