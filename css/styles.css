@@ -125,7 +125,7 @@ body {
 .header-tel {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 16px;
     letter-spacing: 0.02em;
     color: var(--second-title-color);
     margin-left: 30px;
@@ -148,9 +148,8 @@ body {
 .header-tel-icon {
     margin-right: 10px;
     fill: currentColor;
-  
     
-    
+ 
 }
 /*----------main----------*/
 .main {
@@ -456,7 +455,7 @@ body {
 
 .footer .container {
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 
 
@@ -536,10 +535,10 @@ body {
       color: #2196F3;
   }
 
-.footer-soc {
+/* .footer-soc {
     padding-top: 72px;
     padding-bottom: 100px;
-}
+} */
 
 .footer-soc-title {
     font-weight: 700;
